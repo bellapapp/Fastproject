@@ -57,6 +57,8 @@ public class LogicalOp {
             case 5:
                 System.out.println("The number is: 5");
                 break;
+            default:
+                System.out.println("Not found!");
         }
     }
 
