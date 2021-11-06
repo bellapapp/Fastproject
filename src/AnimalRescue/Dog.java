@@ -13,18 +13,18 @@ public class Dog {
 
 
     public void sleep() {
-        System.out.println("Sleeping...");
+        System.out.println("Sleeping ...");
     }
 
     public void eat() {
-        System.out.println("Eating...");
+        System.out.println("Eating ...");
     }
 
     public void play() {
-        System.out.println("Playing...");
+        System.out.println("Playing ...");
     }
 
     public void speak() {
-        System.out.println("Bark!");
+        System.out.println("Bark! ");
     }
 }
