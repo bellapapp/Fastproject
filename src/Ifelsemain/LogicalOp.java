@@ -70,7 +70,7 @@ public class LogicalOp {
         return age > 18;
     }
 
-    public int exercise10(int first, int second, int third) {
+    public int exercise11(int first, int second, int third) {
         if (first >= second && first >= third) {
             return first;
         } else if (second >= first && second >= third) {

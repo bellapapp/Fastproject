@@ -26,11 +26,10 @@ public class MainIfElse {
         System.out.println(logicalop.isNumberEven(12));
         System.out.println(logicalop.isEligibleToVote(16));
         System.out.println(logicalop.isEligibleToVote(19));
-        System.out.println(logicalop.exercise10(10,7,6));
-        System.out.println(logicalop.exercise10(10,10,10));
-        System.out.println(logicalop.exercise10(10,10,615));
-        System.out.println(logicalop.exercise10(10,20,6));
-        System.out.println(logicalop.isNumberEven(9));
-        System.out.println(logicalop.isNumberEven(12));
+        System.out.println(logicalop.exercise11(10,7,6));
+        System.out.println(logicalop.exercise11(10,10,10));
+        System.out.println(logicalop.exercise11(10,10,615));
+        System.out.println(logicalop.exercise11(10,20,6));
+
     }
 }
