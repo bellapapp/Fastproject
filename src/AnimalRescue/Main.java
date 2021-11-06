@@ -58,7 +58,7 @@ public class Main {
                 "Quantity: " + pedigree.qty + "\n" +
                 "Stock availability: " + pedigree.stockAvailability + "\n");
 
-        System.out.println("The veterinary's detalis: \n" +
+        System.out.println("The veterinary's details: \n" +
                 "Name: " + drCurt.name + "\n" +
                 "Price range: " + drCurt.priceRange + "\n" +
                 "Specialization: " + drCurt.specialization + "\n" +
