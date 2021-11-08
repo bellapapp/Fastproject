@@ -76,7 +76,6 @@ public class Animal {
         return healthy;
     }
 
-
     public void setMood(int mood) {
         this.mood = mood;
     }
@@ -84,7 +83,6 @@ public class Animal {
     public int getMood() {
         return mood;
     }
-
 
     public void sleep() {
         System.out.println("Sleeping ...");

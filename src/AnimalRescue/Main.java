@@ -39,8 +39,8 @@ public class Main {
         drCurt.setSpecialization("cats");
 
         RecreationalActivity playing = new RecreationalActivity();
-        playing.setName("Playing");
 
+        playing.setName("Playing");
 
         System.out.println("The dog's details: \n" +
                 "Name: " + dog.getName() + "\n" +
@@ -73,7 +73,6 @@ public class Main {
                 "Specialization: " + drCurt.getSpecialization() + "\n" +
                 "Availability: " + drCurt.getAvailability() + "\n");
 
-        System.out.println(dog.getName() +  " likes this recreational activity: " + playing.getName());
+        System.out.println(dog.getName() + " likes this recreational activity: " + playing.getName());
     }
-
 }

@@ -6,28 +6,35 @@ public class AnimalFood {
     private int qty;
     private int stockAvailability;
 
-    public void setName(String name){
+    public void setName(String name) {
         this.name = name;
     }
-    public String getName(){
+
+    public String getName() {
         return name;
     }
-    public void setPrice(int price){
+
+    public void setPrice(int price) {
         this.price = price;
     }
-    public int getPrice(){
+
+    public int getPrice() {
         return price;
     }
-    public void setQty(int qty){
+
+    public void setQty(int qty) {
         this.qty = qty;
     }
-    public int getQty(){
+
+    public int getQty() {
         return qty;
     }
-    public void setStockAvailability(int stockAvailability){
+
+    public void setStockAvailability(int stockAvailability) {
         this.stockAvailability = stockAvailability;
     }
-    public int getStockAvailability(){
+
+    public int getStockAvailability() {
         return stockAvailability;
     }
 
@@ -39,7 +46,7 @@ public class AnimalFood {
         System.out.println("The food is available and can be purchased. ");
     }
 
-    public void hungryAttenuation(){
+    public void hungryAttenuation() {
         System.out.println("The dog is no longer hungry. ");
     }
 

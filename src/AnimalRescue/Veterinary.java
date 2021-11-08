@@ -6,28 +6,35 @@ public class Veterinary {
     private int priceRange;
     private int availability;
 
-    public void setName(String name){
+    public void setName(String name) {
         this.name = name;
     }
-    public String getName(){
+
+    public String getName() {
         return name;
     }
-    public void setSpecialization(String specialization){
+
+    public void setSpecialization(String specialization) {
         this.specialization = specialization;
     }
-    public String getSpecialization(){
+
+    public String getSpecialization() {
         return specialization;
     }
-    public void setPriceRange(int priceRange){
+
+    public void setPriceRange(int priceRange) {
         this.priceRange = priceRange;
     }
-    public int getPriceRange(){
+
+    public int getPriceRange() {
         return priceRange;
     }
-    public void setAvailability(int availability){
+
+    public void setAvailability(int availability) {
         this.availability = availability;
     }
-    public int getAvailability(){
+
+    public int getAvailability() {
         return availability;
     }
 

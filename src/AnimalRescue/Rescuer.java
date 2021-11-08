@@ -56,7 +56,6 @@ public class Rescuer {
         return moneyAvailability;
     }
 
-
     public void adoption() {
         System.out.println("She adopts a dog. ");
     }
