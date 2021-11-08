@@ -2,67 +2,78 @@ package AnimalRescue;
 
 public class Main {
     public static void main(String[] args) {
-        Animal lessie = new Animal();
-        lessie.name = "Lessie";
-        lessie.age = 3;
-        lessie.breed = "Labrador";
-        lessie.color = "White";
-        lessie.weight = 5.5F;
-        lessie.height = 60;
-        lessie.feelingHungry = 9;
-        lessie.healthy = 8;
-        lessie.mood = 10;
+
+        Animal dog = new Animal();
+
+        dog.setName("Lessie");
+        dog.setAge(3);
+        dog.setBreed("Labrador");
+        dog.setColor("White");
+        dog.setWeight(5.5F);
+        dog.setHeight(60);
+        dog.setFeelingHungry(9);
+        dog.setHealthy(8);
+        dog.setMood(10);
 
         Rescuer tanja = new Rescuer();
-        tanja.name = "Tanja";
-        tanja.age = 15;
-        tanja.moneyAvailability = 5;
-        tanja.occupation = "student";
-        tanja.residence = "city";
-        tanja.timeAvailability = 10;
+
+        tanja.setName("Tanja");
+        tanja.setAge(15);
+        tanja.setMoneyAvailability(5);
+        tanja.setOccupation("student");
+        tanja.setResidence("city");
+        tanja.setTimeAvailability(10);
 
         AnimalFood pedigree = new AnimalFood();
-        pedigree.name = "Pedigree";
-        pedigree.price = 20;
-        pedigree.qty = 5;
-        pedigree.stockAvailability = 1;
+
+        pedigree.setName("Pedigree");
+        pedigree.setPrice(20);
+        pedigree.setQty(5);
+        pedigree.setStockAvailability(1);
 
         Veterinary drCurt = new Veterinary();
-        drCurt.name = "Dr.Curt";
-        drCurt.availability = 2;
-        drCurt.priceRange = 10;
-        drCurt.specialization = "cats";
+
+        drCurt.setName("Dr.Curt");
+        drCurt.setAvailability(2);
+        drCurt.setPriceRange(10);
+        drCurt.setSpecialization("cats");
+
+        RecreationalActivity playing = new RecreationalActivity();
+        playing.setName("Playing");
+
 
         System.out.println("The dog's details: \n" +
-                "Name: " + lessie.name + "\n" +
-                "Age: " + lessie.age + "\n" +
-                "Breed: " + lessie.breed + "\n" +
-                "Color: " + lessie.color + "\n" +
-                "Weight: " + lessie.weight + "\n" +
-                "Height: " + lessie.height + "\n" +
-                "Feeling hungry: " + lessie.feelingHungry + "\n" +
-                "Healthy: " + lessie.healthy + "\n" +
-                "Mood: " + lessie.mood + "\n");
+                "Name: " + dog.getName() + "\n" +
+                "Age: " + dog.getAge() + "\n" +
+                "Breed: " + dog.getBreed() + "\n" +
+                "Color: " + dog.getColor() + "\n" +
+                "Weight: " + dog.getWeight() + "\n" +
+                "Height: " + dog.getHeight() + "\n" +
+                "Feeling hungry: " + dog.getFeelingHungry() + "\n" +
+                "Healthy: " + dog.getHealthy() + "\n" +
+                "Mood: " + dog.getMood() + "\n");
 
-        System.out.println("The adoptator details: \n" +
-                "Name: " + tanja.name + "\n" +
-                "Age: " + tanja.age + "\n" +
-                "Occupation: " + tanja.occupation + "\n" +
-                "Money availability: " + tanja.moneyAvailability + "\n" +
-                "Time availability: " + tanja.timeAvailability + "\n" +
-                "Residence: " + tanja.residence + "\n");
+        System.out.println("The rescuer details: \n" +
+                "Name: " + tanja.getName() + "\n" +
+                "Age: " + tanja.getAge() + "\n" +
+                "Occupation: " + tanja.getOccupation() + "\n" +
+                "Money availability: " + tanja.getMoneyAvailability() + "\n" +
+                "Time availability: " + tanja.getTimeAvailability() + "\n" +
+                "Residence: " + tanja.getResidence() + "\n");
 
         System.out.println("The dog food's details: \n" +
-                "Name: " + pedigree.name + "\n" +
-                "Price: " + pedigree.price + "\n" +
-                "Quantity: " + pedigree.qty + "\n" +
-                "Stock availability: " + pedigree.stockAvailability + "\n");
+                "Name: " + pedigree.getName() + "\n" +
+                "Price: " + pedigree.getPrice() + "\n" +
+                "Quantity: " + pedigree.getQty() + "\n" +
+                "Stock availability: " + pedigree.getStockAvailability() + "\n");
 
         System.out.println("The veterinary's details: \n" +
-                "Name: " + drCurt.name + "\n" +
-                "Price range: " + drCurt.priceRange + "\n" +
-                "Specialization: " + drCurt.specialization + "\n" +
-                "Availability: " + drCurt.availability + "\n");
+                "Name: " + drCurt.getName() + "\n" +
+                "Price range: " + drCurt.getPriceRange() + "\n" +
+                "Specialization: " + drCurt.getSpecialization() + "\n" +
+                "Availability: " + drCurt.getAvailability() + "\n");
+
+        System.out.println(dog.getName() +  " likes this recreational activity: " + playing.getName());
     }
 
 }

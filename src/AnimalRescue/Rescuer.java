@@ -1,12 +1,61 @@
 package AnimalRescue;
 
 public class Rescuer {
-    String name;
-    String occupation;
-    String residence;
-    int age;
-    int timeAvailability;
-    int moneyAvailability;
+    private String name;
+    private String occupation;
+    private String residence;
+    private int age;
+    private int timeAvailability;
+    private int moneyAvailability;
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setOccupation(String occupation) {
+        this.occupation = occupation;
+    }
+
+    public String getOccupation() {
+        return occupation;
+    }
+
+    public void setResidence(String residence) {
+        this.residence = residence;
+    }
+
+    public String getResidence() {
+        return residence;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setTimeAvailability(int timeAvailability) {
+        this.timeAvailability = timeAvailability;
+    }
+
+    public int getTimeAvailability() {
+        return timeAvailability;
+    }
+
+    public void setMoneyAvailability(int moneyAvailability) {
+        this.moneyAvailability = moneyAvailability;
+    }
+
+    public int getMoneyAvailability() {
+        return moneyAvailability;
+    }
+
 
     public void adoption() {
         System.out.println("She adopts a dog. ");

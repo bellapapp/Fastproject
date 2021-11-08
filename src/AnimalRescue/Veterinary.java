@@ -1,10 +1,35 @@
 package AnimalRescue;
 
 public class Veterinary {
-    String name;
-    String specialization;
-    int priceRange;
-    int availability;
+    private String name;
+    private String specialization;
+    private int priceRange;
+    private int availability;
+
+    public void setName(String name){
+        this.name = name;
+    }
+    public String getName(){
+        return name;
+    }
+    public void setSpecialization(String specialization){
+        this.specialization = specialization;
+    }
+    public String getSpecialization(){
+        return specialization;
+    }
+    public void setPriceRange(int priceRange){
+        this.priceRange = priceRange;
+    }
+    public int getPriceRange(){
+        return priceRange;
+    }
+    public void setAvailability(int availability){
+        this.availability = availability;
+    }
+    public int getAvailability(){
+        return availability;
+    }
 
     public void examine() {
         System.out.println("The veterinary examines the dog. ");
