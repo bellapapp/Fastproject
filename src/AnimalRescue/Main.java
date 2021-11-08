@@ -2,7 +2,7 @@ package AnimalRescue;
 
 public class Main {
     public static void main(String[] args) {
-        Dog lessie = new Dog();
+        Animal lessie = new Animal();
         lessie.name = "Lessie";
         lessie.age = 3;
         lessie.breed = "Labrador";
@@ -13,7 +13,7 @@ public class Main {
         lessie.healthy = 8;
         lessie.mood = 10;
 
-        Girl tanja = new Girl();
+        Rescuer tanja = new Rescuer();
         tanja.name = "Tanja";
         tanja.age = 15;
         tanja.moneyAvailability = 5;
@@ -21,7 +21,7 @@ public class Main {
         tanja.residence = "city";
         tanja.timeAvailability = 10;
 
-        DogFood pedigree = new DogFood();
+        AnimalFood pedigree = new AnimalFood();
         pedigree.name = "Pedigree";
         pedigree.price = 20;
         pedigree.qty = 5;

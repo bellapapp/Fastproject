@@ -1,6 +1,6 @@
 package AnimalRescue;
 
-public class Girl {
+public class Rescuer {
     String name;
     String occupation;
     String residence;
