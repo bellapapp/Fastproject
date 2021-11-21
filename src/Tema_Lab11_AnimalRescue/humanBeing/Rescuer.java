@@ -1,20 +1,12 @@
-package AnimalRescue;
+package Tema_Lab11_AnimalRescue.humanBeing;
 
 public class Rescuer {
-    private String name;
+
     private String occupation;
     private String residence;
-    private int age;
+    private String gender;
     private int timeAvailability;
     private int moneyAvailability;
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getName() {
-        return name;
-    }
 
     public void setOccupation(String occupation) {
         this.occupation = occupation;
@@ -32,12 +24,12 @@ public class Rescuer {
         return residence;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    public String getGender() {
+        return gender;
     }
 
-    public int getAge() {
-        return age;
+    public void setGender(String gender) {
+        this.gender = gender;
     }
 
     public void setTimeAvailability(int timeAvailability) {
@@ -56,24 +48,24 @@ public class Rescuer {
         return moneyAvailability;
     }
 
-    public void adoption() {
-        System.out.println("She adopts a dog. ");
-    }
-
-    public void vetCheck() {
-        System.out.println("She takes the dog to the vet. ");
-    }
-
-    public void playWithTheDog() {
-        System.out.println("She plays with the dog. ");
-    }
-
-    public void buyGames() {
-        System.out.println("She goes to the pet shop to buy games for the dog. ");
-    }
-
-    public void buyFood() {
-        System.out.println("She buys food for the dog. ");
-    }
+//    public void adoption() {
+//        System.out.println("She adopts a dog. ");
+//    }
+//
+//    public void vetCheck() {
+//        System.out.println("She takes the dog to the vet. ");
+//    }
+//
+//    public void playWithTheDog() {
+//        System.out.println("She plays with the dog. ");
+//    }
+//
+//    public void buyGames() {
+//        System.out.println("She goes to the pet shop to buy games for the dog. ");
+//    }
+//
+//    public void buyFood() {
+//        System.out.println("She buys food for the dog. ");
+//    }
 }
 

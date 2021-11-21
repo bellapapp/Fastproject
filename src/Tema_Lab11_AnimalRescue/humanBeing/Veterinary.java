@@ -1,18 +1,10 @@
-package AnimalRescue;
+package Tema_Lab11_AnimalRescue.humanBeing;
 
-public class Veterinary {
-    private String name;
+public class Veterinary extends HumanBeing {
     private String specialization;
     private int priceRange;
     private int availability;
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getName() {
-        return name;
-    }
 
     public void setSpecialization(String specialization) {
         this.specialization = specialization;

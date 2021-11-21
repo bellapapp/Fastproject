@@ -1,15 +1,12 @@
-package AnimalRescue;
+package Tema_Lab11_AnimalRescue.animal;
 
 public class Animal {
+
     private String name;
-    private String breed;
     private int age;
     private float weight;
     private String color;
     private int height;
-    private int feelingHungry;
-    private int healthy;
-    private int mood;
 
 
     public void setName(String name) {
@@ -18,14 +15,6 @@ public class Animal {
 
     public String getName() {
         return name;
-    }
-
-    public void setBreed(String breed) {
-        this.breed = breed;
-    }
-
-    public String getBreed() {
-        return breed;
     }
 
     public void setAge(int age) {
@@ -60,43 +49,20 @@ public class Animal {
         return height;
     }
 
-    public void setFeelingHungry(int feelingHungry) {
-        this.feelingHungry = feelingHungry;
-    }
-
-    public int getFeelingHungry() {
-        return feelingHungry;
-    }
-
-    public void setHealthy(int healthy) {
-        this.healthy = healthy;
-    }
-
-    public int getHealthy() {
-        return healthy;
-    }
-
-    public void setMood(int mood) {
-        this.mood = mood;
-    }
-
-    public int getMood() {
-        return mood;
-    }
-
     public void sleep() {
-        System.out.println("Sleeping ...");
+        System.out.println("Sleeping...");
     }
 
     public void eat() {
-        System.out.println("Eating ...");
+        System.out.println("Eating...");
     }
 
     public void play() {
-        System.out.println("Playing ...");
+        System.out.println("Playing...");
     }
 
     public void speak() {
-        System.out.println("Bark! ");
+        System.out.println("Speaking...");
     }
+
 }
