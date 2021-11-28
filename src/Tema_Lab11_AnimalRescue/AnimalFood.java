@@ -1,13 +1,13 @@
-package Tema_Lab11_AnimalRescue.animalFood;
+package Tema_Lab11_AnimalRescue;
 
-public class AnimalFood {
+public abstract class AnimalFood {
 
     private String foodType;
     private int price;
     private int qty;
-    private int stockAvailability;
 
     public String getType() {
+
         return foodType;
     }
 
@@ -20,6 +20,7 @@ public class AnimalFood {
     }
 
     public int getPrice() {
+
         return price;
     }
 
@@ -28,15 +29,9 @@ public class AnimalFood {
     }
 
     public int getQty() {
+
         return qty;
     }
 
-    public void setStockAvailability(int stockAvailability) {
-        this.stockAvailability = stockAvailability;
-    }
-
-    public int getStockAvailability() {
-        return stockAvailability;
-    }
-
+    public abstract void food();
 }

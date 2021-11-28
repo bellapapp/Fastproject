@@ -1,6 +1,7 @@
-package Tema_Lab11_AnimalRescue.humanBeing;
+package Tema_Lab11_AnimalRescue;
 
-public class Veterinary extends HumanBeing {
+public abstract class Veterinary extends HumanBeing {
+
     private String specialization;
     private int priceRange;
     private int availability;
@@ -30,23 +31,21 @@ public class Veterinary extends HumanBeing {
         return availability;
     }
 
+    public void whatDoWithTheAnimal() {
+        System.out.println("I heal the animal.");
+    }
+
     public void examine() {
-        System.out.println("The veterinary examines the dog. ");
+        System.out.println("I examine the animal. ");
     }
 
     public void vaccinate() {
-        System.out.println("The veterinary vaccinates the dog. ");
-    }
-
-    public void cure() {
-        System.out.println("The veterinary cures the dog. ");
+        System.out.println("I vaccinate the animal.");
     }
 
     public void nonSpecialization() {
-        System.out.println("The veterinary cannot treat dogs. ");
+        System.out.println("I can treat any animal.");
     }
 
-    public void setAvailability() {
-        System.out.println("the veterinary is unavailable. ");
-    }
+    public abstract void surgery();
 }

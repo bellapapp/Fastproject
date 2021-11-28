@@ -1,6 +1,4 @@
-package Tema_Lab11_AnimalRescue.animalFood;
-
-import Tema_Lab11_AnimalRescue.animalFood.CatFood;
+package Tema_Lab11_AnimalRescue;
 
 public class Whiskas extends CatFood {
 

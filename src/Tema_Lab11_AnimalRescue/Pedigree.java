@@ -1,6 +1,4 @@
-package Tema_Lab11_AnimalRescue.animalFood;
-
-import Tema_Lab11_AnimalRescue.animalFood.DogFood;
+package Tema_Lab11_AnimalRescue;
 
 public class Pedigree extends DogFood {
 
@@ -9,7 +7,6 @@ public class Pedigree extends DogFood {
     }
 
     private String brandName = "Pedigree";
-
 }
 
 

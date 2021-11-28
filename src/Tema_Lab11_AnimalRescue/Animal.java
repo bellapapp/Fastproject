@@ -1,6 +1,6 @@
-package Tema_Lab11_AnimalRescue.animal;
+package Tema_Lab11_AnimalRescue;
 
-public class Animal {
+public abstract class Animal {
 
     private String name;
     private int age;
@@ -8,12 +8,12 @@ public class Animal {
     private String color;
     private int height;
 
-
     public void setName(String name) {
         this.name = name;
     }
 
     public String getName() {
+
         return name;
     }
 
@@ -22,6 +22,7 @@ public class Animal {
     }
 
     public int getAge() {
+
         return age;
     }
 
@@ -30,6 +31,7 @@ public class Animal {
     }
 
     public float getWeight() {
+
         return weight;
     }
 
@@ -38,6 +40,7 @@ public class Animal {
     }
 
     public String getColor() {
+
         return color;
     }
 
@@ -46,6 +49,7 @@ public class Animal {
     }
 
     public int getHeight() {
+
         return height;
     }
 
@@ -57,12 +61,7 @@ public class Animal {
         System.out.println("Eating...");
     }
 
-    public void play() {
-        System.out.println("Playing...");
-    }
+    public abstract void play();
 
-    public void speak() {
-        System.out.println("Speaking...");
-    }
-
+    public abstract void speak();
 }
