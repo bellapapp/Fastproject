@@ -1,6 +1,6 @@
-package Ifelsemain;
+package Tema_Lab11_IfElse;
 
-public class LogicalOp {
+public class LogicalOpIfElse {
     public int checkBiggerNumber(int first, int second) {
         if (first > second) {
             return first;

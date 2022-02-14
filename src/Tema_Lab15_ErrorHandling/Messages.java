@@ -95,7 +95,6 @@ public class Messages {
 
     public static final String DIVISION = "The division of the two numbers is: ";
 
-
     public static final String MODULO_HELLO = "You will enter 2 numbers, then we return the rest from the division.";
 
     public static final String MODULO = "The rest is: ";

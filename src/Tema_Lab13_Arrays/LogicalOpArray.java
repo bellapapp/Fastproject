@@ -4,14 +4,14 @@ public class LogicalOpArray {
     public static void main(String[] args) {
 
         int[] firstIntArray = new int[50];
-        int[] arrayZoli = {5, 6, 15, 22, 13, 1, 12};
+        int[] arrayZoli = {5, 6, 15, 22, 13, 1, 15, 12};
         String[] firstStringArray = {"one", "two", "three", "four", "five"};
         int[] secondIntArray = new int[50];
 
 
 //        exercise2();
 
-        exercise3(firstIntArray);
+//        exercise3(firstIntArray);
 //        printArray(firstIntArray);
 
 //        System.out.println(exercise4(firstIntArray));
@@ -25,7 +25,8 @@ public class LogicalOpArray {
 
 //        exercise7();
 
-//        printArray(exercise8(arrayZoli, 15));
+        printArray(exercise8(arrayZoli, 15));
+//        printArray(getArrayWithoutNumber(arrayZoli,15));
 
 //        System.out.println(exercise9(arrayZoli));
 
@@ -96,20 +97,22 @@ public class LogicalOpArray {
 
 
     public static int[] exercise8(int[] array, int verifyNumber) {
-        int[] newArray = new int[array.length - 1];
-        boolean found = false;
+
+        int found = 0;
         int count = 0;
 
         for (int i = 0; i < array.length; i++) {
             if (array[i] == verifyNumber) {
-                found = true;
-                break;
+                found = found + 1;
             }
         }
 
-        if (found != true) {
+        if (found == 0) {
+
             return array;
         }
+
+        int[] newArray = new int[array.length - found];
 
         for (int j = 0; j < newArray.length; j++) {
             if (array[count] == verifyNumber) {
@@ -118,6 +121,7 @@ public class LogicalOpArray {
             newArray[j] = array[count];
             count++;
         }
+
         return newArray;
     }
 

@@ -184,12 +184,14 @@ public class ReadFromKeyboard {
     public String getUsername() {
         Scanner scan = new Scanner(System.in);
         System.out.println(Messages.ENTER_USERNAME);
+
         return scan.next();
     }
 
     public String getPassword() {
         Scanner scan = new Scanner(System.in);
         System.out.println(Messages.ENTER_PASSWORD);
+
         return scan.next();
     }
 }

@@ -1,10 +1,8 @@
-package Ifelsemain;
-
-import java.util.SortedMap;
+package Tema_Lab11_IfElse;
 
 public class MainIfElse {
     public static void main(String[] args) {
-        LogicalOp logicalop = new LogicalOp();
+        LogicalOpIfElse logicalop = new LogicalOpIfElse();
         int biggest = logicalop.checkBiggerNumber(2, 8);
         System.out.println("The bigger number is: " + biggest);
         System.out.println(logicalop.checkBiggerNumber(28, 7));

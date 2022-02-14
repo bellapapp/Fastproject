@@ -6,31 +6,31 @@ import java.util.List;
 public class Liste {
     public static void main(String[] args) {
 
-        List<Integer> myFirstList = getPopulatedList(14);
-
-        List<String> myFirstStringList = new ArrayList<>();
-        myFirstStringList.add("Blue");
-        myFirstStringList.add("White");
-        myFirstStringList.add("Black");
-
-        exercise1(myFirstList);
-
-        exercise2(myFirstList, 15);
-        exercise1(myFirstList);
-
-        exercise3(myFirstList, 3);
-
-        exercise4(myFirstList);
-
-        exercise5(myFirstStringList, 0, "Red");
-        printStringList(myFirstStringList);
-
-        exercise6(myFirstList, 19);
-        exercise1(myFirstList);
-
-        exercise7(myFirstList);
-
-        System.out.println(exercise8(myFirstList));
+//        List<Integer> myFirstList = getPopulatedList(14);
+//
+//        List<String> myFirstStringList = new ArrayList<>();
+//        myFirstStringList.add("Blue");
+//        myFirstStringList.add("White");
+//        myFirstStringList.add("Black");
+//
+//        exercise1(myFirstList);
+//
+//        exercise2(myFirstList, 15);
+//        exercise1(myFirstList);
+//
+//        exercise3(myFirstList, 3);
+//
+//        exercise4(myFirstList);
+//
+//        exercise5(myFirstStringList, 0, "Red");
+//        printStringList(myFirstStringList);
+//
+//        exercise6(myFirstList, 19);
+//        exercise1(myFirstList);
+//
+//        exercise7(myFirstList);
+//
+//        System.out.println(exercise8(myFirstList));
 
     }
 
@@ -71,9 +71,9 @@ public class Liste {
         return myList;
     }
 
-    public static void exercise7(List<Integer> myList) {
+    public void exercise7(List<Integer> myList) {
         for (int i = 0; i < myList.size(); i++) {
-            System.out.println("Pe pozitia " + i + " se afla: " + myList.get(i));
+            System.out.println("On position " + i + " it's: " + myList.get(i));
         }
     }
 
@@ -103,5 +103,14 @@ public class Liste {
         for (int i = 0; i < myList.size(); i++) {
             System.out.println(myList.get(i));
         }
+    }
+
+    public float averageFromList(List<Integer> myList) {
+        float sum = 0;
+
+        for (int i = 0; i < myList.size(); i++) {
+            sum = sum + myList.get(i);
+        }
+        return sum / myList.size();
     }
 }

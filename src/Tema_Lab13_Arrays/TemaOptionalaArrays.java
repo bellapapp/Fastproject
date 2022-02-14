@@ -1,6 +1,6 @@
 package Tema_Lab13_Arrays;
 
-public class TemaOptionala {
+public class TemaOptionalaArrays {
     public static void main(String[] args) {
         int[] firstArray = {1, 2, 3, 4, 5, 6, 7};
         int[] secondArray = {3, 2, 27, 8, 8, 10, 15, 88};
@@ -9,18 +9,18 @@ public class TemaOptionala {
 
 //        exercise1(secondArray, 2, 1216);
 //        printArray(secondArray);
-
+//
 //        exercise2(secondArray);
-
+//
 //        exercise3(secondArray);
 //        printArray(secondArray);
-
+//
 //        exercise4(secondArray);
-
+//
 //        exercise5(firstStringArray, secondStringArray);
 
-//        exercise6(secondArray);
-//        printArray(secondArray);
+        exercise6(secondArray);
+        printArray(secondArray);
 
     }
 
@@ -34,7 +34,7 @@ public class TemaOptionala {
         return array;
     }
 
-    public static void exercise2(int[] array) {
+    public void exercise2(int[] array) {
         int smallest = array[0];
         int biggest = array[0];
 
@@ -45,8 +45,8 @@ public class TemaOptionala {
                 smallest = array[i];
             }
         }
-        System.out.println("Cel mai mare numar din array este: " + biggest);
-        System.out.println("Cel mai mic numar din array este: " + smallest);
+        System.out.println("The biggest number from the array is: " + biggest);
+        System.out.println("The smallest number from the array is: " + smallest);
     }
 
     public static int[] exercise3(int[] array) {
